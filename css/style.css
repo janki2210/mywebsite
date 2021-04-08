@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-white{
+    background-color:white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-lightgray{
+    background-color:lightgray;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-slateblue{
+    background-color: slateblue;
+}
+.bg-springgreen{
+    background-color: springgreen;
+}
+/* profilebar data */
+.profilebar{
+    width: 20%;
+    height: 100vh;
+    position:fixed;
+    float: left;
+    color:black;
+    background-color: #122620;
+}
+.subprofilebar{
+    text-align: center;
+}
+.subprofilebar img{
+    width:71%;
+    height: 24%;
+    border-radius:50%;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.social{
+    padding-left: 0px 20px;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+.social h3{
+    color:white;
+    font-size:30px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.social .icon{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+.icon a{
+    padding: 10px 10px;
+    /* margin: 5px 5px; */
+    font-size: 30px;
+    color:white;
+    line-height: 36px;
+    text-align:left;
+    border-radius: 50%;
+}
+.icon a:hover{
+    transition: 2s;
+    background-color:gray;
+}
+.profilebar nav{
+    text-align: center;
+    margin: 20px;
+}
+.profilebar ul{
+    display: block;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.profilebar ul li{
+    margin:15px;
+    text-align:left;
+    padding: 0 5px;
+}
+.profilebar ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.i{
+    padding-right: 10px;
+}
+.profilebar ul li:hover{
+    background-color:gray;
+    transition: 1s;
+}
+/* profilebar content */
+.profilecontent{
+    width: 80%;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    float:right;
+    color:darkslategray;
+    background-color:#d6d4cc;
+    /* display: inline-block; */
+}
+.profilecontent .h1{
+    font-size: 40px;
+    /* margin: 100px 80px 80px 100px; */
+    margin: 50px 0 50px 50px;
+    padding:100px;
+    text-align: center;
+    /* font-style: oblique; */
+    font-family: 'Train One', cursive;
+}
+/* about us section */
+.profilecontent aboutus{
+    width: 80%; 
+    height: 100vh;
+    float:right;
+}
+.heading{
+    font-size: 20px;
+    /* margin:5px 0px 5px 0px; */
+    padding:10px;
+    text-align: center;
+    color:black;
+    /* background-color: black; */
+    display:inline-block;
+    /* text-decoration: underline; */
+}
+.heading::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    /* bottom: 0; */
+    /* left: 0; */
+}
+.p1{
+    padding:10px 10px;
+    line-height: 20px;
+}
+.p2{
+    padding:10px 10px;
+}
+.aboutuscontainer{
+    width: 80%;
+    margin: 10px 10px;
+    /* padding:10px 10px; */
+}
+.aboutusrow{
+    width: 100%;
+    clear: both;
+}
+.aboutus{
+    width:50%;
+    float: left;
+    /* padding: 10px 0px; */
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.aboutusbox{
+    text-align:center;
+}
+.aboutusbox img{
+    width: 100%;
+    height: 300px;
+    float: left;
+    padding:5px 0px;
+}
+/* skills section */
+.profilecontent skills{
+    width: 80%;
+    height: 100vh;
+    float:right;
+}
+.skillsrow{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+}
+.skills{
+    width: 50%;
+    /* height: 300px; */
+    float: left;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    /* border: 2px solid darkgrey; */
+    /* box-shadow: 0px 0px 10px lightslategray; */
+}
+.subskills{
+    text-align: center;
+    padding: 30px;
+    border: 2px solid lightgray;
+}
+.subskills h5{
+    text-align:left;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.subskills h5::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 10px;
+    border:7px solid darkgrey;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+/* education section */
+.profilecontent education{
+    width: 80%;
+    height: 100vh;
+    float:right;
+}
+/* .educationcontainer{
+    width: 80%;
+    /* margin: auto; */
+/* } */
+.educationrow{
+    width: 100%;
+    clear: both;
+}
+.education{
+    width: 80%;
+    height: 130px;
+    float: left;
+    margin: 20px 20px;
+    border: 2px solid lightgray;
+    box-shadow: 0px 0px 10px lightslategray;
+    /* border-radius: 15px; */
+}
+.educationbox{
+    text-align: left;
+    color: black;
+    padding: 10px 10px;
+}
+.educationbox h5{
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    padding: 0px 20px;
+}
+.educationbox h6{
+    text-align: left;
+    color: black;
+    padding: 10px 20px;
+}
+.educationbox h3{
+    text-align: left;
+    color: black;
+    padding: 0px 20px;
+}
+/* portfolio section*/
+.profilecontent portfolio{
+    width: 80%;
+    height: 100vh;
+    float: right;
+}
+.row{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.col4{
+    width: 33.333%;
+    float: left;
+}
+.subporfoliobox {
+    height: 200px;
+    background-image: url('../img/stock-photo-businesswoman-typing-on-laptop-at-workplace-woman-working-in-home-office-hand-keyboard-349413722.jpg');
+    background-size: cover;
+    text-align:center;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.subporfoliobox::before{
+    content: '';
+    width:10%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color:darkred;
+    position: absolute;
+    left: -50%;
+    transition: 2s;
+}
+.subporfoliobox:hover::before{
+    left: 0;
+}
+.subporfoliobox img{
+    width: 100%;
+    height: 200px;
+}
+/* contact section*/
+.profilecontent contact{
+    width: 80%;
+    height: 100vh;
+    float:right;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.information{
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+}
+.details{
+    width: 50%;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contactbox{
+    text-align: center;
+    /* border: 2px solid red; */
+    border: 2px solid #9e9e9e;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5%;
+}
